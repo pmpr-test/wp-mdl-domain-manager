@@ -1,0 +1,31 @@
+{
+  "name": "pmpr-mdl/wp-mdl-domain-manager",
+  "type": "project",
+  "license": "proprietary",
+  "description": "Domain Manager Module for Wordpress",
+  "keywords": [
+    "optimization-manager",
+    "wordpress",
+    "package"
+  ],
+  "require": {
+    "php": ">=8.2",
+    "pmpr-cmn/wp-cmn-foundation": "~1.4"
+  },
+  "prod-require": {
+    "php": "8.2",
+    "wordpress": "6.0",
+    "wp-cmn-foundation": "latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Module\\DomainManager\\": "src/Pmpr/Module/DomainManager"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "tag": "1.1.40",
+  "timestamp": "1726343062"
+}
