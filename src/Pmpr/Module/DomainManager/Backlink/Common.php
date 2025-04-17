@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             67c83a4246e00             |
+    |             6800fba9ebf8b             |
     |_______________________________________|
 */
  namespace Pmpr\Module\DomainManager\Backlink; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\DomainManager\Container; class Common extends Container { const momcisyewgkeguye = 'backlink'; const igmwackauwsummys = 'footer_text'; const ouauqossmqiwwsui = 'anchor_suffix'; const mecugimsqkeicksm = 'anchor_prefix'; const sikqccmyeogmuosk = self::momcisyewgkeguye . Constants::eyiuegkygasoeoik; const ugqsimokykgqaeiq = 'place'; const awweqicqwikkykis = 'titles'; const kweqeqcagwaiucik = 'anchor'; const ogcquccysekeyisc = 'anchors'; const ooqaewiocugokqco = 'statements'; const ksssumoioemcmcgo = 'place_length'; const syoumqikoowgswma = 'reverse_slug'; const ameuayawimeoysmc = 'title_and_slug_place'; const qigcuyyegqmimoym = 'paragraph_min_count'; const cyukygkewseoqouw = 'paragraph_max_count'; const oecykcwqcimuygkw = 'paragraph_min_length'; const swikuukssgyqwkue = 'paragraph_max_length'; public function yoieqkskckuicoiu($smqkocasociqsgai = '') { $kuemsykessaoquoy = (array) $this->ocksiywmkyaqseou('backlink_manager_modules', []); if ($smqkocasociqsgai) { $kuemsykessaoquoy = $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($kuemsykessaoquoy, $smqkocasociqsgai); } return $kuemsykessaoquoy; } public function moyiakuigiusagwo($smqkocasociqsgai, string $uusmaiomayssaecw = null) { $qeqooyuoiasweuck = $this->sscegwueamckwmcy("get_{$this->yoieqkskckuicoiu($smqkocasociqsgai)}_options", []); return $this->caokeucsksukesyo()->ywqgcuymeiswqyqc()->get($qeqooyuoiasweuck, $uusmaiomayssaecw); } }
